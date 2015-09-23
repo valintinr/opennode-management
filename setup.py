@@ -28,7 +28,7 @@ setup(
         "setuptools", # Redundant but removes a warning
         "Twisted==13.1.0",
         "pyasn1==0.1.2", # required by Twisted conch
-        "transaction==1.3.0",
+        "transaction",
         "zope.component==3.12",
         "zope.app.catalog==3.8.1",
         "zope.app.intid==3.7.1",
